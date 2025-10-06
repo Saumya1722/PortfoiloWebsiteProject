@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- swipper CSS -->
+  <link rel="stylesheet" href="js/swiper-bundle.min.css" />
+
+  <!-- skills boxicon css -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <!-- navbar -->
+      <div class="navbar">
+        <div class="logo-content">
+          <img src="logo.jpeg" alt="" class="logo" />
+          <div class="logo-text">aumya Sinha</div>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="nav-item" id="nav-links">
+
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#review">Review</a></div>
+          <div><a href="#contactme">Contact me</a></div>
+          <!-- <div><a href="#portfoliobuilder1" id="openPortfolioBuilder" target="_blank">Portfolio Maker</a></div> -->
+            <!-- Navbar link -->
+<div><a href="#portfolio-builder">Portfolio Builder</a></div>
+
+</div>
+
+
+        </div>
+      </div>
+
+      <div class="hero-section">
+        <div class="absolute faded-text">Saumya Sinha</div>
+
+        <div class="hero-section-left">
+          <div class="hero-section-heading">Hii! Saumya Sinha</div>
+          <div class="hero-section-heading hero-section-subheading">
+            I am a <span class="role"></span>
+          </div>
+          <div class="hero-section-description">
+            I am a web developer and here is my portfolio. I will take you
+            ahead across my journey as Web Developer.
+          </div>
+          <div class="btn-pink" id="btn">Hire me</div>
+        </div>
+
+        <div class="hero-section-right">
+          <div class="absolute icons icon-tags">
+            <img src="tags.jpeg" alt="" />
+          </div>
+          <div class="absolute icons icon-cube">
+            <img src="cube.png" alt="" />
+          </div>
+          <div class="absolute icons icon-circle">
+            <img src="circle.png" alt="" />
+          </div>
+
+          <div class="absolute icons icon-plus">
+            <img src="plus.png" alt="" />
+          </div>
+          <div class="myimage">
+            <img src="picture.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project -->
+
+    <div class="project-section" id="projects">
+      <h2 class="page-header">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container">
+              <img src="stack/HTML.png" alt="" class="project-skill" />
+              <img src="stack/CSS.png" alt="" class="project-skill" />
+              <img src="stack/Javascript.svg" alt="" class="project-skill" />
+              <img src="stack/Tailwind.png" alt="" class="project-skill" />
+              <img src="stack/Bootstrap.svg" alt="" class="project-skill" />
+            </div>
+            <h2 class="project-heading">Portfolio Website Project</h2>
+            <div class="project-subheading">
+              This is built from scratch using HTML, CSS and JavaScript with
+              user-friendly UI and API intregation.
+            </div>
+
+            <!-- button -->
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read more</button>
+              <a href=""><i class="fa-brands fa-github icon"></i></a>
+              <a href=""><i class="fa-solid fa-up-right-from-square icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container">
+              <img src="stack/HTML.png" alt="" class="project-skill" />
+              <img src="stack/CSS.png" alt="" class="project-skill" />
+              <img src="stack/Javascript.svg" alt="" class="project-skill" />
+              <img src="stack/Tailwind.png" alt="" class="project-skill" />
+              <img src="stack/Bootstrap.svg" alt="" class="project-skill" />
+            </div>
+            <h2 class="project-heading">Ecommerce Website Project</h2>
+            <div class="project-subheading">
+              This is built from scratch using HTML, CSS and JavaScript with
+              user-friendly UI and API intregation.
+            </div>
+
+            <!-- button -->
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read more</button>
+              <a href=""><i class="fa-brands fa-github icon"></i></a>
+              <a href=""><i class="fa-solid fa-up-right-from-square icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project3">
+          <div class="project-number project-number-right">03</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container">
+              <img src="stack/HTML.png" alt="" class="project-skill" />
+              <img src="stack/CSS.png" alt="" class="project-skill" />
+              <img src="stack/Javascript.svg" alt="" class="project-skill" />
+              <img src="stack/Tailwind.png" alt="" class="project-skill" />
+              <img src="stack/Bootstrap.svg" alt="" class="project-skill" />
+            </div>
+            <h2 class="project-heading">Quiz App Website Project</h2>
+            <div class="project-subheading">
+              This is built from scratch using HTML, CSS and JavaScript with
+              user-friendly UI and API intregation.
+            </div>
+
+            <!-- button -->
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read more</button>
+              <a href=""><i class="fa-brands fa-github icon"></i></a>
+              <a href=""><i class="fa-solid fa-up-right-from-square icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project4">
+          <div class="project-number project-number-left">04</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container">
+              <img src="stack/HTML.png" alt="" class="project-skill" />
+              <img src="stack/CSS.png" alt="" class="project-skill" />
+              <img src="stack/Javascript.svg" alt="" class="project-skill" />
+              <img src="stack/Tailwind.png" alt="" class="project-skill" />
+              <img src="stack/Bootstrap.svg" alt="" class="project-skill" />
+            </div>
+            <h2 class="project-heading">
+              Movie Review and Rating Website Project
+            </h2>
+            <div class="project-subheading">
+              This is built from scratch using HTML, CSS and JavaScript with
+              user-friendly UI and API intregation.
+            </div>
+
+            <!-- button -->
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read more</button>
+              <a href=""><i class="fa-brands fa-github icon"></i></a>
+              <a href=""><i class="fa-solid fa-up-right-from-square icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- skills section -->
+      <div class="skills-container" id="skills">
+        <div class="vertical-bars">
+          <div class="section-title">Technical Skills</div>
+
+          <div class="loading">HTML</div>
+          <div class="loadbar" data-percentage="90">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+
+          <div class="loading">CSS</div>
+          <div class="loadbar" data-percentage="85">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+
+          <div class="loading">JavaScript</div>
+          <div class="loadbar" data-percentage="70">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+
+          <div class="loading">React</div>
+          <div class="loadbar" data-percentage="50">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+
+          <div class="loading">MongoDB</div>
+          <div class="loadbar" data-percentage="30">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+
+          <div class="loading">Github</div>
+          <div class="loadbar" data-percentage="80">
+            <div class="fill"></div>
+            <div class="count">0%</div>
+          </div>
+        </div>
+
+        <!-- Circular Bars -->
+        <div class="circular-bars">
+          <div class="circular-title">Professional Skills</div>
+          <br />
+          <div class="circle-content">
+            <div class="circle" data-percentage="75">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Creative</div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="60">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Adaptability</div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="85">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Problem Solving</div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="50">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Flexible</div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="40">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Proactive</div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" data-percentage="70">
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="35"></circle>
+                <circle class="progress" cx="40" cy="40" r="35"></circle>
+              </svg>
+              <div class="percentage">0%</div>
+            </div>
+            <div class="circle-label">Communication</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- testimonials -->
+
+      <!-- boxicons CSS -->
+      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+      <section class="testimonial-container" id="review">
+        <h1>What people says about me</h1>
+        <div class="testimonial mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <!-- slide 1 -->
+            <div class="slide swiper-slide">
+              <img src="im1.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus officia repudiandae perferendis veniam laudantium!
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Falguni Naik</span>
+                <span class="job">Nyka Founder</span>
+              </div>
+            </div>
+
+            <!-- slide2 -->
+
+            <div class="slide swiper-slide">
+              <img src="im2.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus officia repudiandae perferendis veniam laudantium
+                 Nam, dolorum eius!
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Sunder Pichai</span>
+                <span class="job">Google CEO</span>
+              </div>
+            </div>
+
+            <!-- slide 3 -->
+
+            <div class="slide swiper-slide">
+              <img src="im3.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus officia repudiandae perferendis veniam laudantium
+                facilis atque enim similique id. Maxime doloribus inventore
+                error quam molestiae, qui tenetur? Nam, dolorum eius!
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Mark Jukerberg</span>
+                <span class="job">Facebook CEO</span>
+              </div>
+            </div>
+
+            <!-- slide 4 -->
+            <div class="slide swiper-slide">
+              <img src="im4.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus officia repudiandae perferendis veniam laudantium
+                facilis atque enim similique id. Maxime doloribus inventore
+                error quam molestiae, qui tenetur? Nam, dolorum eius!
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Bill Gates</span>
+                <span class="job">Microsoft CEO</span>
+              </div>
+            </div>
+
+            <!-- slide 5 -->
+            <div class="slide swiper-slide">
+              <img src="im5.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus officia repudiandae perferendis veniam laudantium
+                facilis atque enim similique id. Maxime doloribus inventore
+                error quam molestiae, qui tenetur? Nam, dolorum eius!
+              </p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Ratan Tata</span>
+                <span class="job">TATA</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- swipper js -->
+      <script src="js/swiper-bundle.min.js"></script>
+
+      <!-- Contact Us -->
+      <div class="contactus-form-container" id="contactme">
+        <div class="container">
+          <h1 class="contactus-heading">Contact me</h1>
+          <h3 class="contactus-subheading">
+            Want to know me more...Want some suggestions.
+          </h3>
+
+          <div class="contactus-form-container">
+            <form class="form" action="">
+              <div class="formfield-container">
+                <input type="text" class="formfield" id="" name="name" placeholder="Your name" />
+
+                <input type="email" name="email" id="" class="formfield" placeholder="Your email" />
+
+                <input type="text" name="subject" id="" class="formfield" placeholder="Subject" />
+
+                <textarea name="message" id="" cols="30" rows="30" class="formfield formfield-textarea" placeholder="
+                                Your Message"></textarea>
+              </div>
+
+              <!-- contact us button -->
+              <button class="btn-pink" id="sumit-btn" type="submit">
+                Send Message
+                <i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio builder -->
+
+<!-- Portfolio Builder Section -->
+<section id="portfolio-builder" class="section portfolio-builder">
+  <div class="container"></div>
+  <h2 class="page-header">Easy Pizzy Portfolio Builder</h2>
+    <!-- Your form and content here -->
+
+     <div class="container-builder">
+ 
+    <div class="form">
+      <h2>Enter details</h2>
+
+      <form action="" id="builderForm">
+        <!-- user information  -->
+        <label>Upload your photo<span style="color: red">*</span></label>
+        <input type="file" name="" id="photo" accept="image/*" /><br />
+
+        <label>Enter your fullname<span style="color: red">*</span></label>
+        <input type="text" id="name" required /><br />
+
+        <label>Enter your email<span style="color: red">*</span></label>
+        <input type="email" id="email" required /><br />
+
+        <!-- about user -->
+        <label for="about">Tell us something about you<span id="wordCount">(0/300 words)</span></label>
+        <textarea id="about" rows="3" oninput="countWords()"></textarea><br />
+
+        <!-- skills -->
+        <label>Skills</label>
+        <div class="skill-wrapper">
+          <input type="text" id="skillsInput" placeholder="Enter a skill" />
+          <button type="button" id="addSkillBtn" class="add-btn">+</button> <!-- type="button" prevents form submit -->
+        </div>
+        <div class="skill-container" id="skillsContainer"></div>
+
+
+        <!-- projects -->
+        <h3>Projects</h3>
+        <div id="projectsContainer"></div>
+        <button type="button" class="add-btn" onclick="addProject()">
+          + Add Project
+        </button>
+
+        <!-- Education -->
+        <h3>Education</h3>
+        <div id="educationContainer"></div>
+        <button type="button" class="add-btn" onclick="addEducation()">+ Add Education</button>
+
+        <!-- Contact -->
+        <h3>Contact Links</h3>
+        <input type="text" id="linkedin" placeholder="LinkedIn URL">
+        <input type="text" id="github" placeholder="GitHub URL">
+        <input type="text" id="twitter" placeholder="Twitter URL">
+
+        <button type="button" onclick="generatePortfolio()">Generate Portfolio</button>
+      </form>
+      <button id="downloadBtn" style="display:none; margin-top:10px;" onclick="downloadPdf()">Download as PDF</button>
+    </div>
+
+    <!-- Portfolio Preview Section -->
+    <div class="portfolio-box" id="portfolioPreview">
+      <!-- <h2>Your Portfolio Will Appear Here</h2> -->
+    </div>
+  </div>
+  </form>
+  </div>
+  <!-- Scroll to Top Button (Insert this just before </body>) -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn" onclick="scrollToTop()">
+    <i class="fa-solid fa-heart"></i>
+</button>
+
+<script>
+    // Scroll to Top Functionality
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    
+    // Function to scroll to the top of the document smoothly
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Show or hide the button based on scroll position
+    window.onscroll = function() {
+        // Show button if scroll position is greater than 300px
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollToTopBtn.style.opacity = '1';
+            scrollToTopBtn.style.pointerEvents = 'auto'; // Re-enable pointer events
+        } else {
+            scrollToTopBtn.style.opacity = '0';
+            scrollToTopBtn.style.pointerEvents = 'none'; // Disable clicking when visually hidden
+        }
+    };
+</script>
+
+
+  </div>
+</section>
+
+
+
+
+
+
+ 
+
+  <!-- hero-section JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+
+  <!-- testimonial section js -->
+  <script src="script.js"></script>
+
+  <!-- portfolio builder script -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script> -->
+   <script src="portfolio.js"></script>
+
+
+</body>
+
+</html>
